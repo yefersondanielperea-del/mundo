@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Sección Principal */
+.hero {
+    background-color: #f0f9f4;
+}
+
+.hero h1 {
+    color: #206849;
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #444;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+.planeta-img {
+    max-width: 280px;
+    border-radius: 8px;
+}
+
+/* Características */
+.caracteristicas p {
+    color: #555;
+    font-weight: 500;
+    margin: 0;
+    padding: 10px 0;
+}
+
+/* Tarjetas */
+.tarjeta {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+}
+
+.icono-card {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.tarjeta .card-body {
+    padding: 15px 20px 25px;
+}
+
+.tarjeta h5 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.tarjeta p {
+    font-size: 0.9rem;
+    color: #444;
+}
+
+/* Colores de tarjetas */
+.verde-claro { background-color: #d4f4dc; }
+.azul-celeste { background-color: #c6f0e8; }
+.amarillo { background-color: #fff3cd; }
+.azul-claro { background-color: #e0eff9; }
+.rosa { background-color: #f3e5f7; }
+.gris { background-color: #e9ecef; }
+
+/* Pie de página */
+.pie-pagina {
+    background-color: #1b3a2f;
+    color: white;
+    margin-top: 40px;
+}
+
+.pie-pagina h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.pie-pagina ul {
+    padding: 0;
+}
+
+.pie-pagina ul li {
+    margin-bottom: 8px;
+}
+
+.pie-pagina a {
+    color: #b8e6cf;
+    text-decoration: none;
+}
+
+.pie-pagina a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Botones */
+.btn-success {
+    background-color: #206849;
+    border-color: #206849;
+}
+
+.btn-success:hover {
+    background-color: #18553a;
+    border-color: #18553a;
+}
+
